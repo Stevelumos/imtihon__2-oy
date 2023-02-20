@@ -1,0 +1,27 @@
+.footer {
+  // display: flex;
+  img {
+    width: 100%;
+    max-width: 1380px;
+    // padding-top: 16rem;
+    margin-bottom: 3.1rem;
+  }
+  @include responsive(phone) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer__nav {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  justify-content: space-between;
+  @include responsive(phone) {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 100%;
+    max-width: 10.6rem;
+  }
+}
